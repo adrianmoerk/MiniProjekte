@@ -1,7 +1,5 @@
 package de.gds2.car2runaway;
 
-import javax.swing.plaf.FontUIResource;
-
 public class Main {
     public static void main(String[] args) {
         Auto audi = new Auto("Audi", "A5", 4, 100, true, true, "Elektro");

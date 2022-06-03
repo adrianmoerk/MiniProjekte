@@ -1,8 +1,6 @@
 package de.gds2.lambda;
 
 import javax.swing.*;
-import java.awt.event.ActionEvent;
-import java.awt.event.ActionListener;
 
 public class LambdaAusloeser {
     public static void main(String[] args) {

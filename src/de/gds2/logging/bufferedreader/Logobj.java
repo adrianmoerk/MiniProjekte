@@ -15,6 +15,14 @@ public class Logobj {
         this.user = user;
     }
 
+    public void ausgeben() {
+        System.out.print("User: " + user + " ");
+        System.out.print("Uhrzeit Eingeloggt: " + uhrzeitEingeloggt + " ");
+        System.out.print("Uhrzeit Ausgeloggt: " + uhrzeitAusgeloggt + " ");
+        System.out.print("Datum Eingeloggt: " + datumEingeloggt + " ");
+        System.out.println("Datum Ausgeloggt: " + datumAusgeloggt);
+    }
+
     public String getUhrzeitEingeloggt() {
         return uhrzeitEingeloggt;
     }

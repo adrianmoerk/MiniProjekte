@@ -19,6 +19,5 @@ public class BufferCopy2 {
         } catch (IOException e) {
             throw new RuntimeException(e);
         }
-        ;
     }
 }

@@ -10,6 +10,10 @@ public class Rechnen {
         this.geschwindigkeit = geschwindigkeit;
     }
 
+    public void setGeschwindigkeit(double geschwindigkeit) {
+        this.geschwindigkeit = geschwindigkeit;
+    }
+
     public double getReaktionsweg() {
         this.reaktionsweg = (this.geschwindigkeit / 10) * 3;
         return this.reaktionsweg;

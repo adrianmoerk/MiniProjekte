@@ -1,4 +1,4 @@
-package de.gds2.collectionClasses.hashmap;
+package de.gds2.collectionClasses.hashmap.kfz;
 
 public class Starter {
     public static void main(String[] args) {

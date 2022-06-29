@@ -1,10 +1,8 @@
 package de.gds2.collectionClasses.dict;
 
-import java.util.Hashtable;
-
-public class Hashmap {
+public class Hashtable {
     public static void main(String[] args) {
-        Hashtable<Integer, String> h = new Hashtable<>();
+        java.util.Hashtable<Integer, String> h = new java.util.Hashtable<>();
         h.put(3, "Klaus");
         h.put(2, "Laus");
         h.put(1, "Hassib");
